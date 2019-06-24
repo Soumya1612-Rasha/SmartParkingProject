@@ -1,7 +1,6 @@
 *******************************************
-# Code de l'article 1
+# Codes
 *******************************************
-Le projet contient les fichiers :
 
 * ClusteringTools.py
 * DataTools.py
@@ -9,16 +8,9 @@ Le projet contient les fichiers :
 * ParkClusterAppli.py
 * Configuration.py
 * Plot_results.py
-* output : un dossier qui contient les scripts python pour reproduire les resultats
-* in : un dossier qui contient les données
-* ou : un dossier qui contient les resultats de tests
 
 *******************************************
 
-*******************************************
-### Pour lancer l'application : 
-
-* ./run.sh
 
 *******************************************
 ### Python version  :
@@ -36,7 +28,7 @@ Le projet contient les fichiers :
 * tqdm
 * pyclustering
 
-### Pour installer les requirements  : 
+### To install requirements  : 
 
 * pip install -r requirements.txt
 
