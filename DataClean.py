@@ -38,7 +38,7 @@ for district in pm_district:
         
         X.loc[X["BLOCK_ID"].isin(block_ids),"BLOCK_ID"]=district
 
-print("Le nombre total de block est : ",nbBlocks)
+print("Total Number of Blocks : ",nbBlocks)
 print("New block ids",X["BLOCK_ID"].unique())
 sys.stdin.read(1)
 X.to_csv("./in/sf_train_set_district.csv", sep=';')       
